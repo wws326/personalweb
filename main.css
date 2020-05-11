@@ -1,0 +1,87 @@
+* {
+  font-family: 'Cutive Mono', monospace;
+}
+
+html {
+  background: url(background2.png) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
+}
+
+nav {
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px 150px 50px 100px;
+}
+
+nav ul {
+  list-style: none;
+  text-align: right;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  position: relative;
+  padding: 10px;
+  text-decoration: none;
+  color: #aaa;
+  margin: 0 10px;
+}
+
+nav ul li a:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  bottom: -1px;
+  background-color: white;
+  width: 0px;
+  height: 1px;
+  transition: all 0.7s;
+}
+
+nav ul li a:hover {
+  color: white;
+}
+
+nav ul li a:hover:after {
+  width: 100%;
+}
+
+.container, .homepage-block-2, .homepage-block-3 {
+  padding: 200px;
+}
+
+
+div.footernav {
+  padding: 50px 100px 50px 100px;
+}
+
+.selftext p:nth-child(1) {
+  font-size: 1.5em;
+  color: white;
+  font-style: italic;
+  text-align: center;
+}
+
+.homepage-block-2 {
+  font-size: 10pt;
+  color: white;
+  text-align: center;
+}
+
+.selftext p:nth-child(2) {
+  font-size: 2.5em;
+  color: white;
+  text-align: center;
+}
+
+/* This only changes this particular animation duration */
+.animate__animated.animate__fadeInDown {
+  --animate-duration: 3s;
+}
+
+/* This changes all the animations globaly */
+:root {
+  --animate-duration: 800ms;
+  --animation-delay: 0.9s;
+}
