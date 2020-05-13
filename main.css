@@ -3,7 +3,7 @@
 }
 
 html {
-  background: url(https://user-images.githubusercontent.com/41343139/81618064-b5f57d80-943a-11ea-8741-59d4215d3196.PNG) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
+  background: url(background2.PNG) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
 }
 
 nav {
@@ -63,17 +63,74 @@ div.footernav {
   text-align: center;
 }
 
+.selftext p:nth-child(2) {
+  font-size: 2.5em;
+  color: white;
+  text-align: center;
+}
+
 .homepage-block-2 {
   font-size: 10pt;
   color: white;
   text-align: center;
 }
 
-.selftext p:nth-child(2) {
-  font-size: 2.5em;
+.travelheader h1{
+  font-size: 2rem;
   color: white;
   text-align: center;
 }
+
+.travelheader p{
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.card img{
+  float: left;
+  padding: 0px 50px 0px 0px;
+}
+
+.card2 img{
+  float: right;
+  padding: 0px 0px 0px 50px;
+}
+
+.travelcontainer img {
+  width: 400px;
+}
+
+.travelcontainer p {
+  padding-bottom: 20px;
+}
+
+.card, .card2 {
+  padding: 100px 450px 100px 450px;
+}
+
+.travelcontainer h3 {
+  font-size: 1rem;
+  color: white;
+}
+
+.travelcontainer p {
+  color: white;
+
+}
+
+.btn {
+  border: 1px solid white;
+  padding: 10px;
+}
+
+
+
 
 /* This only changes this particular animation duration */
 .animate__animated.animate__fadeInDown {
